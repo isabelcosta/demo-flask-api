@@ -9,6 +9,7 @@ Inside the root of the repository:
 > set FLASK_APP=all_apis.py
 > flask run
 ```
+This will run locally in this endpoint: http://127.0.0.1:5000
 
 ### Testing
 
@@ -16,7 +17,7 @@ I tested GETs in a browser. To test POST I used [POSTMAN](https://www.getpostman
 
 **GET /employees**
 
-Response data (with initial data):
+- Response data (with initial data):
 
 ```
 {
@@ -44,7 +45,7 @@ Response data (with initial data):
 
 **POST /employee**
 
-Request data (with new employee):
+- Request data (with new employee):
 ```
 {
   "lastName": "Bonita",
@@ -53,7 +54,7 @@ Request data (with new employee):
 }
 ```
 
-Response data (with all employees):
+- Response data (with all employees):
 ```
 {
   "employees": {
@@ -83,7 +84,7 @@ Response data (with all employees):
 }
 ```
 
-Terminal Output:
+- Terminal Output:
 
 ```
 demo-flask-api>flask run
